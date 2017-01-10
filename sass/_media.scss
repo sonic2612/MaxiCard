@@ -1,0 +1,38 @@
+@media screen and (max-width: 1330px) {
+    body{
+    background: #e9f3fa;
+    }
+   nav{
+    display: none;
+   }
+   .wrap{
+    display: none;
+   }
+   .mobile{
+    display: block!important;
+  ul{
+    list-style:none;
+    text-align: center;
+  }
+  ul img{
+    text-align: center;
+    width: 150px;
+    margin-top: 20px;
+  }
+  li{
+    width: 40%;
+    margin: 20px auto;
+  }
+  a{
+     @include box-shadow(10px 10px 20px 0px rgba(179,173,179,1)); 
+     @include border-radius(10px);
+    display: block;
+    padding: 10px 30px;
+    margin: 0 auto;
+    color: #4f4e50;
+    text-decoration: none;
+    background: #ffffff;
+  }
+}
+
+}
